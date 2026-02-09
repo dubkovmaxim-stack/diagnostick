@@ -1,0 +1,100 @@
+2026-02-08 16:07:57,622 - __main__ - INFO - Бот @repairsyst_bot запущен
+2026-02-08 16:07:57,622 - aiogram.dispatcher - INFO - Start polling
+2026-02-08 16:07:57,702 - aiogram.dispatcher - INFO - Run polling for bot @repairsyst_bot id=8451290889 - 'botrepair'
+2026-02-08 16:10:31,392 - __main__ - INFO - Бот @repairsyst_bot запущен
+2026-02-08 16:10:31,393 - aiogram.dispatcher - INFO - Start polling
+2026-02-08 16:10:31,467 - aiogram.dispatcher - INFO - Run polling for bot @repairsyst_bot id=8451290889 - 'botrepair'
+2026-02-08 16:11:12,185 - __main__ - INFO - Пользователь 319988728 начал работу
+2026-02-08 16:11:12,188 - aiogram.event - INFO - Update id=95835149 is handled. Duration 313 ms by bot id=8451290889
+2026-02-08 16:11:14,517 - __main__ - INFO - Пользователь 1089244915 начал работу
+2026-02-08 16:11:14,518 - aiogram.event - INFO - Update id=95835150 is handled. Duration 109 ms by bot id=8451290889
+2026-02-08 16:11:15,983 - aiogram.event - INFO - Update id=95835151 is handled. Duration 610 ms by bot id=8451290889
+2026-02-08 16:11:18,768 - aiogram.event - INFO - Update id=95835152 is handled. Duration 625 ms by bot id=8451290889
+2026-02-08 16:11:24,054 - aiogram.event - INFO - Update id=95835153 is handled. Duration 3327 ms by bot id=8451290889
+2026-02-08 16:11:24,661 - aiogram.event - INFO - Update id=95835154 is handled. Duration 3625 ms by bot id=8451290889
+2026-02-08 16:11:30,947 - aiogram.event - INFO - Update id=95835155 is handled. Duration 1843 ms by bot id=8451290889
+2026-02-08 16:11:34,045 - aiogram.event - INFO - Update id=95835156 is handled. Duration 1780 ms by bot id=8451290889
+2026-02-08 16:11:36,977 - aiogram.event - INFO - Update id=95835157 is handled. Duration 3735 ms by bot id=8451290889
+2026-02-08 16:11:47,569 - aiogram.event - INFO - Update id=95835159 is handled. Duration 4250 ms by bot id=8451290889
+2026-02-08 16:12:00,106 - aiogram.event - INFO - Update id=95835158 is handled. Duration 17094 ms by bot id=8451290889
+2026-02-08 16:12:07,608 - aiogram.event - INFO - Update id=95835161 is not handled. Duration 0 ms by bot id=8451290889
+2026-02-08 16:12:24,444 - aiogram.event - INFO - Update id=95835160 is handled. Duration 17734 ms by bot id=8451290889
+2026-02-08 16:12:55,891 - aiogram.event - INFO - Update id=95835162 is not handled. Duration 0 ms by bot id=8451290889
+2026-02-08 16:14:19,114 - aiogram.event - INFO - Update id=95835163 is handled. Duration 6656 ms by bot id=8451290889
+2026-02-08 16:14:27,058 - aiogram.event - INFO - Update id=95835164 is not handled. Duration 77 ms by bot id=8451290889
+2026-02-08 16:14:27,059 - aiogram.event - ERROR - Cause exception while process update id=95835164 by bot id=8451290889
+TelegramBadRequest: Telegram server says - Bad Request: inline keyboard button URL 'tel:+79615223190' is invalid: Wrong port number specified in the URL
+Traceback (most recent call last):
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\OneDrive\Desktop\botrepair\bot2.py", line 885, in process_offer_choice
+    await handle_contact_expert(message, state)
+  File "C:\Users\dubko\OneDrive\Desktop\botrepair\bot2.py", line 950, in handle_contact_expert
+    await message.answer(contact_text, reply_markup=get_inline_expert_kb())
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 508, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 178, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dubko\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: inline keyboard button URL 'tel:+79615223190' is invalid: Wrong port number specified in the URL
+2026-02-08 16:15:28,029 - aiogram.event - INFO - Update id=95835165 is handled. Duration 281 ms by bot id=8451290889
+2026-02-08 16:15:30,819 - aiogram.event - INFO - Update id=95835166 is handled. Duration 125 ms by bot id=8451290889
+2026-02-08 16:15:38,213 - aiogram.event - INFO - Update id=95835167 is handled. Duration 140 ms by bot id=8451290889
+2026-02-08 16:16:05,557 - __main__ - INFO - Пользователь 319988728 оставил номер: 79615223190
+2026-02-08 16:16:05,667 - aiogram.event - INFO - Update id=95835168 is handled. Duration 500 ms by bot id=8451290889
+2026-02-08 16:16:12,404 - __main__ - INFO - Пользователь 319988728 выбрал покупку системы
+2026-02-08 16:16:12,405 - aiogram.event - INFO - Update id=95835169 is handled. Duration 140 ms by bot id=8451290889
+2026-02-08 16:16:38,622 - aiogram.event - INFO - Update id=95835170 is handled. Duration 546 ms by bot id=8451290889
+2026-02-08 16:16:43,787 - aiogram.event - INFO - Update id=95835171 is handled. Duration 265 ms by bot id=8451290889
+2026-02-08 16:18:31,805 - __main__ - INFO - Пользователь 319988728 начал работу
+2026-02-08 16:18:31,806 - aiogram.event - INFO - Update id=95835172 is handled. Duration 406 ms by bot id=8451290889
+2026-02-08 16:18:36,292 - aiogram.event - INFO - Update id=95835173 is handled. Duration 655 ms by bot id=8451290889
+2026-02-08 16:18:44,547 - aiogram.event - INFO - Update id=95835174 is handled. Duration 3327 ms by bot id=8451290889
+2026-02-08 16:18:49,627 - aiogram.event - INFO - Update id=95835175 is handled. Duration 1750 ms by bot id=8451290889
+2026-02-08 16:19:01,642 - aiogram.event - INFO - Update id=95835176 is handled. Duration 3750 ms by bot id=8451290889

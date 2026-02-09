@@ -1,0 +1,38 @@
+2026-02-08 14:36:25,163 - __main__ - INFO - Бот @repairsyst_bot успешно запущен
+2026-02-08 14:36:25,163 - aiogram.dispatcher - INFO - Start polling
+2026-02-08 14:36:25,240 - aiogram.dispatcher - INFO - Run polling for bot @repairsyst_bot id=8451290889 - 'botrepair'
+2026-02-08 14:36:29,439 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-08 14:36:29,439 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8451290889)
+2026-02-08 14:36:34,905 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-08 14:36:34,906 - aiogram.dispatcher - WARNING - Sleep for 1.189857 seconds and try again... (tryings = 1, bot id = 8451290889)
+2026-02-08 14:36:41,037 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-08 14:36:41,038 - aiogram.dispatcher - WARNING - Sleep for 1.545602 seconds and try again... (tryings = 2, bot id = 8451290889)
+2026-02-08 14:36:47,904 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-08 14:36:47,904 - aiogram.dispatcher - WARNING - Sleep for 2.066094 seconds and try again... (tryings = 3, bot id = 8451290889)
+2026-02-08 14:36:54,149 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-08 14:36:54,149 - aiogram.dispatcher - WARNING - Sleep for 2.608969 seconds and try again... (tryings = 4, bot id = 8451290889)
+2026-02-08 14:37:00,923 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-08 14:37:00,923 - aiogram.dispatcher - WARNING - Sleep for 3.426669 seconds and try again... (tryings = 5, bot id = 8451290889)
+2026-02-08 14:37:08,760 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-08 14:37:08,760 - aiogram.dispatcher - WARNING - Sleep for 4.345997 seconds and try again... (tryings = 6, bot id = 8451290889)
+2026-02-08 14:37:17,277 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-08 14:37:17,277 - aiogram.dispatcher - WARNING - Sleep for 4.963067 seconds and try again... (tryings = 7, bot id = 8451290889)
+2026-02-08 14:37:26,521 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-08 14:37:26,521 - aiogram.dispatcher - WARNING - Sleep for 4.978093 seconds and try again... (tryings = 8, bot id = 8451290889)
+2026-02-08 14:37:35,914 - __main__ - INFO - Бот @repairsyst_bot успешно запущен
+2026-02-08 14:37:35,915 - aiogram.dispatcher - INFO - Start polling
+2026-02-08 14:37:35,993 - aiogram.dispatcher - INFO - Run polling for bot @repairsyst_bot id=8451290889 - 'botrepair'
+2026-02-08 14:37:41,414 - __main__ - INFO - Пользователь 319988728 начал работу
+2026-02-08 14:37:41,414 - aiogram.event - INFO - Update id=95835139 is handled. Duration 343 ms by bot id=8451290889
+2026-02-08 14:37:46,260 - __main__ - INFO - Пользователь 319988728 начал диагностику
+2026-02-08 14:37:46,261 - aiogram.event - INFO - Update id=95835140 is handled. Duration 109 ms by bot id=8451290889
+2026-02-08 14:37:54,887 - aiogram.event - INFO - Update id=95835141 is handled. Duration 1219 ms by bot id=8451290889
+2026-02-08 14:38:03,582 - aiogram.event - INFO - Update id=95835142 is handled. Duration 1375 ms by bot id=8451290889
+2026-02-08 14:38:12,138 - aiogram.event - INFO - Update id=95835143 is handled. Duration 1672 ms by bot id=8451290889
+2026-02-08 14:38:41,598 - aiogram.event - INFO - Update id=95835144 is handled. Duration 11250 ms by bot id=8451290889
+2026-02-08 14:39:51,256 - __main__ - INFO - Пользователь 319988728 увидел предложение
+2026-02-08 14:39:51,257 - aiogram.event - INFO - Update id=95835145 is handled. Duration 8780 ms by bot id=8451290889
+2026-02-08 14:40:06,679 - __main__ - INFO - Пользователь 319988728 выбрал бесплатный чек-лист
+2026-02-08 14:40:06,679 - aiogram.event - INFO - Update id=95835146 is handled. Duration 281 ms by bot id=8451290889
+2026-02-08 14:43:24,836 - aiogram.event - INFO - Update id=95835147 is not handled. Duration 15 ms by bot id=8451290889
+2026-02-08 14:43:41,448 - aiogram.event - INFO - Update id=95835148 is not handled. Duration 0 ms by bot id=8451290889
